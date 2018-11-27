@@ -3,6 +3,7 @@
     "Favorite": "blue"
   },
   "ConnectionStrings": {
-    "DutchConnectionString": "Data source=PAJOCDSKT\\SQL2008R2;Initial Catalog=Tree;Persist Security Info=True;User ID=sa;Password=pajoc527sa;MultipleActiveResultSets=True;"
+    "DutchConnectionStringCasa": "Data source=PAJOCDSKT\\SQL2008R2;Initial Catalog=Tree;Persist Security Info=True;User ID=sa;Password=pajoc527sa;MultipleActiveResultSets=True;",
+    "DutchConnectionPortatil": "Data source=IT_BDY\\SQLEXPRESSR2;Initial Catalog=DutchBD;Persist Security Info=True;User ID=sa;Password=FCBP;MultipleActiveResultSets=True;"
   }
 }

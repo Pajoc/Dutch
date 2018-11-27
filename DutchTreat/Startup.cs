@@ -28,7 +28,7 @@ namespace DutchTreat
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DutchContext>(cfg => {
-                cfg.UseSqlServer(_config.GetConnectionString("DutchConnectionString"));
+                cfg.UseSqlServer(_config.GetConnectionString("DutchConnectionPortatil"));
             });
 
 
